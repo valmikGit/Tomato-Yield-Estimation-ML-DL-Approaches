@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Otsu's Thresholding Implementation (Standalone Script)
 
@@ -50,11 +49,7 @@ def otsu_threshold(gray: np.ndarray) -> int:
 
 
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python otsu_threshold.py <image_path>")
-        sys.exit(1)
-
-    image_path = sys.argv[1]
+    image_path = input()
 
     # Load image as grayscale
     img = Image.open(image_path).convert("L")
