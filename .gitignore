@@ -3,6 +3,5 @@ yieldenv
 images/
 **/__pycache__/
 *.zip
-images
 *.csv
 **/*.pth

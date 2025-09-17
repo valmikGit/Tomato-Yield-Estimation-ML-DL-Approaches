@@ -30,7 +30,6 @@ pure_eval==0.2.3
 pyaml==25.7.0
 Pygments==2.19.2
 python-dateutil==2.9.0.post0
-pywin32==311
 PyYAML==6.0.2
 pyzmq==27.1.0
 scikit-learn==1.7.2
