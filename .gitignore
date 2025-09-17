@@ -2,3 +2,5 @@ yieldenv
 .venv/
 images/
 **/__pycache__/
+*.zip
+images

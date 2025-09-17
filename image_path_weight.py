@@ -3,7 +3,7 @@ import csv
 import random
 
 # Input folder
-input_dir = "images"
+input_dir = "images/images"
 output_csv = "image_weights.csv"
 
 # Extensions considered as images
