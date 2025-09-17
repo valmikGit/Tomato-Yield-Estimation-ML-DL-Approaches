@@ -1,1 +1,4 @@
 yieldenv
+.venv/
+images/
+**/__pycache__/
