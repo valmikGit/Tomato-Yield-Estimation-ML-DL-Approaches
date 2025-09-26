@@ -5,3 +5,4 @@ images/
 *.zip
 *.csv
 **/*.pth
+*.JPG
