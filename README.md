@@ -11,7 +11,7 @@ flowchart TD
 
     F --> G[Dataset Split 80:10:10 → Train/Val/Test]
     G --> H[Resize all images to 224 * 224]
-    H --> I[Scale RGB pixels to [0,1]]
+    H --> I[Scale RGB pixels to 0 to 1]
     I --> J[Compute subset mean/std]
     J --> K[Normalize each subset with mean/std]
     K --> L[Random Horizontal Flip only for training]
