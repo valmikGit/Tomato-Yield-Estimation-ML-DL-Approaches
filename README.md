@@ -24,8 +24,8 @@ flowchart TD
 
     Q --> R[Feature Extraction per crop]
     R --> R1[MobileNetV3 Backbone → Global pooled feature → α scalar]
-    R --> R2[Compute Image Area (H×W)]
-    R --> R3[Compute Aspect Ratio (W/H)]
+    R --> R2[Compute Image Area H × W]
+    R --> R3[Compute Aspect Ratio W/H]
     R --> R4[Compute Avg Pixel Intensity]
     R1 --> S[Concatenate 4 features]
     R2 --> S
