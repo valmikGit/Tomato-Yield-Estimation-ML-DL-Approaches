@@ -6,3 +6,6 @@ images/
 *.csv
 **/*.pth
 *.JPG
+*.png
+*.jpg
+*.PNG
