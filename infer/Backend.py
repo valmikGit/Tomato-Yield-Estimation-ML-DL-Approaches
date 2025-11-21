@@ -23,29 +23,32 @@ mobilenet.eval()
 pool = nn.AdaptiveAvgPool2d((1,1)).to(DEVICE)
 
 
+# 1️⃣ Match training resize
+IMG_SIZE = (224, 224)  # instead of 640x640
+
+# 2️⃣ Extract features exactly like training
 def extract_features_from_crop(crop_path):
-    img = io.imread(crop_path).astype(np.float32) / 255.0  # HWC [0,1]
+    img = io.imread(crop_path).astype(np.float32) / 255.0
     if img.ndim == 2:
         img = np.stack([img]*3, axis=-1)
     if img.shape[2] == 4:
         img = img[..., :3]
-    # apply mobilenet preprocessing
     preprocess = mobilenet_weights.transforms()
-    # use PIL image via skimage -> convert to uint8 array then to PIL
     from PIL import Image
     pil_img = Image.fromarray((img * 255).astype(np.uint8))
-    inp = preprocess(pil_img).unsqueeze(0).to(DEVICE)  # shape (1,3,H,W)
+    inp = preprocess(pil_img).unsqueeze(0).to(DEVICE)
     with torch.no_grad():
-        feat_map = mobilenet.features(inp)  # shape (1, C, h, w)
-        pooled = pool(feat_map)  # (1, C, 1, 1)
-        vec = pooled.view(1, -1)  # (1, C)
-        # to scalar alpha, take mean of feature vector
+        feat_map = mobilenet.features(inp)
+        pooled = pool(feat_map)
+        vec = pooled.view(1, -1)
         alpha = float(vec.mean().cpu().numpy())
+    # scale area/aspect_ratio to match training image scale
     H, W = img.shape[:2]
     area = float(H * W)
     aspect_ratio = float(W / H) if H != 0 else 0.0
     avg_pixel_intensity = float(img.mean())
     return alpha, area, aspect_ratio, avg_pixel_intensity
+
 
 
 # --------------------
@@ -99,7 +102,7 @@ mlp.to(DEVICE).eval()
 with open(f"{MODEL_OUT_DIR}/normalization_info.json", "r") as f:
     norm_info = json.load(f)
 
-IMG_SIZE = (640, 640)
+# IMG_SIZE = (640, 640)
 
 
 # -----------------------------
