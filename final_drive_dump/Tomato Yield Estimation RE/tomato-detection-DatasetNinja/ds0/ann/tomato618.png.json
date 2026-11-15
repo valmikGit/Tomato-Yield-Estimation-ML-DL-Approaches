@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 400,
+        "width": 500
+    },
+    "objects": [
+        {
+            "id": 5769552,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:33.369Z",
+            "updatedAt": "2023-06-13T10:14:33.369Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        87,
+                        102
+                    ],
+                    [
+                        142,
+                        159
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 5769551,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:33.369Z",
+            "updatedAt": "2023-06-13T10:14:33.369Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        95,
+                        52
+                    ],
+                    [
+                        155,
+                        104
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 5769550,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:33.368Z",
+            "updatedAt": "2023-06-13T10:14:33.368Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        79,
+                        4
+                    ],
+                    [
+                        132,
+                        57
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

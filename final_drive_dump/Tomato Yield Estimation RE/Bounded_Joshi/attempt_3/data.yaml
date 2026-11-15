@@ -1,0 +1,4 @@
+train: /content/drive/MyDrive/Tomato Yield Estimation RE/Bounded_Joshi/attempt_3/train/images
+val: /content/drive/MyDrive/Tomato Yield Estimation RE/Bounded_Joshi/attempt_3/val/images
+nc: 1
+names: ['tomato']
