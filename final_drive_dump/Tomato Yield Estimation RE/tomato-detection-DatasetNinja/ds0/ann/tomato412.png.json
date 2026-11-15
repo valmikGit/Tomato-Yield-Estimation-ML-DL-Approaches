@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 500,
+        "width": 400
+    },
+    "objects": [
+        {
+            "id": 5768151,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:02.954Z",
+            "updatedAt": "2023-06-13T10:14:02.954Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        315,
+                        96
+                    ],
+                    [
+                        357,
+                        144
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 5768150,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:02.954Z",
+            "updatedAt": "2023-06-13T10:14:02.954Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        311,
+                        54
+                    ],
+                    [
+                        354,
+                        101
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 5768149,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:02.954Z",
+            "updatedAt": "2023-06-13T10:14:02.954Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        323,
+                        0
+                    ],
+                    [
+                        367,
+                        38
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 400,
+        "width": 500
+    },
+    "objects": [
+        {
+            "id": 5768606,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:13.082Z",
+            "updatedAt": "2023-06-13T10:14:13.082Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        481,
+                        360
+                    ],
+                    [
+                        499,
+                        397
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

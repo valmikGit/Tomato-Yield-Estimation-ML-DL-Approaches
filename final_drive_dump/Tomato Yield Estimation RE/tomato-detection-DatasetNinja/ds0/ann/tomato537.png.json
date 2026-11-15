@@ -1,0 +1,106 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 500,
+        "width": 400
+    },
+    "objects": [
+        {
+            "id": 5768963,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:18.229Z",
+            "updatedAt": "2023-06-13T10:14:18.229Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        31,
+                        245
+                    ],
+                    [
+                        96,
+                        315
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 5768962,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:18.229Z",
+            "updatedAt": "2023-06-13T10:14:18.229Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        94,
+                        271
+                    ],
+                    [
+                        140,
+                        330
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 5768961,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:18.228Z",
+            "updatedAt": "2023-06-13T10:14:18.228Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        394,
+                        67
+                    ],
+                    [
+                        399,
+                        86
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 5768960,
+            "classId": 8620,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "cx@datasetninja.com",
+            "createdAt": "2023-06-13T10:14:18.228Z",
+            "updatedAt": "2023-06-13T10:14:18.228Z",
+            "tags": [],
+            "classTitle": "tomato",
+            "points": {
+                "exterior": [
+                    [
+                        390,
+                        34
+                    ],
+                    [
+                        399,
+                        62
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

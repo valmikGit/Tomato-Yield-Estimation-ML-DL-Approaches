@@ -1,0 +1,14 @@
+{
+    "classes": [
+        {
+            "title": "tomato",
+            "shape": "rectangle",
+            "color": "#FF0000",
+            "geometry_config": {},
+            "id": 8620,
+            "hotkey": ""
+        }
+    ],
+    "tags": [],
+    "projectType": "images"
+}

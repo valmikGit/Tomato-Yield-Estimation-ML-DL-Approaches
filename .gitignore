@@ -10,3 +10,7 @@ images/
 *.jpg
 *.PNG
 tomato_env/
+
+# Allow the Google Drive dump (large files tracked via git-LFS, see .gitattributes)
+!final_drive_dump/
+!final_drive_dump/**
